@@ -1,0 +1,217 @@
+#survey-form{
+    background-color:   #1b1b32;
+    width: 100%;
+    
+}
+body{
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7));
+}
+    
+
+#name{
+    width: 90%;
+ margin-left: 20px;
+ height: 30px;
+ 
+}
+#email{
+    width: 90%;
+    margin-left: 20px;
+    height: 30px;
+}
+#number{
+    width: 90%;
+    margin-left: 20px;
+    height: 30px;
+}
+#dropdown{
+    width: 90%;
+    margin-left: 20px; 
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+label{
+   display: flex;
+   margin-left: 20px;
+    margin-bottom: 8px;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+   font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    cursor: default;
+   
+  
+   
+   
+   
+ 
+  }
+  textarea{
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+    border-radius: 2px;
+    min-height: 100px;
+    height: 100px;
+    
+  }
+  .button{
+width: 100%;
+padding-bottom: 0.75rem;
+padding-left: 20px;
+
+  }
+  button{
+    text-align: center;
+  height: 40px;
+    width: 90%;
+ 
+    background-color: #37af65;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2px;
+  }
+
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column; /* Stack radio buttons vertically */
+    align-items: flex-start; /* Align radio buttons to the start (left) */
+    margin-left: 20px; /* Push radio buttons to the left */
+    margin-right: auto; /* Center within the form */
+    gap: 10px;              /* Space between radio buttons */
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center; /* Align label text with radio button */
+    margin: 0;
+    padding: 0;
+}
+
+
+ 
+ 
+  /*div {
+    display: block;
+    unicode-bidi: isolate;
+  }*/
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  
+}
+
+.form-group label {
+    line-height: 1;
+   
+  
+   /* Adjusts the line height to remove extra space */
+}
+
+.form-group input {
+ 
+}
+.form-group input {
+    margin-top: -2px; 
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100%;
+}
+.form{
+   max-width: 1000px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 0.25rem;
+}
+
+h1{
+    text-align: center;
+    color:rgb(243, 243, 243);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin: -2px;
+    
+}
+p{
+    text-align: center;
+    color: white;
+}
+select{
+    font-size: 1rem;
+}
+.word{
+    padding-top: 20px;
+}
+@media only screen and (min-width: 600px){
+    form {
+        padding: 2.5rem;
+}
+#name{
+    height: 50px;
+
+}
+#email{
+    height: 50px;
+}
+#number{
+    height: 50px;
+}
+#dropdown{
+    height: 50px;
+}
+.form{
+    font-size: 50px;
+   margin-bottom: 70px;
+   width: 90%;
+   height: 100%;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.5rem;
+}
+select{
+    font-size: 1.5rem;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: -2px;
+}
+p{
+    font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem; 
+  margin: -2px; 
+  font-weight: 300;
+  
+  
+}
+.container{
+   margin: 0;
+}
+.word{
+padding-top: 20px;
+margin: 50px;
+}
+}
